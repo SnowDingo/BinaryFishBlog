@@ -1,6 +1,9 @@
 ---
 //CSSをインポート
 import '../styles/global.css';
+
+import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
 const pageTitle = "About Me"
 const identity = {
   firstName: "Snow",
@@ -26,15 +29,11 @@ const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Godot","Atcoder"
 	  </style>
 </head>
 <body>
-    <a href="/">Home</a>
-    <a href="/blog/">Blog</a>
-    <a href="/about/">About</a>
+	<Navigation />
 	<h1>{pageTitle}</h1>
 	<p>
 		I am SnowDingo, an experienced web/game developer. I live in {identity.country}, and my job is {identity.occupation}. 
 		I have experiences with {skills.map((skill) => <li class="skills">{skill}</li>)}
 	</p>
-
-
-	
+	<Footer />
 </body>

@@ -1,5 +1,8 @@
 ---
 import '../styles/global.css';
+//ナビゲーション
+import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
 const pageTitle = "Home"
 
 ---
@@ -13,9 +16,9 @@ const pageTitle = "Home"
 		<title>{pageTitle}</title>
 	</head>
 	<body>
-		<a href="/">Home</a>
-		<a href="/blog/">Blog</a>
-		<a href="/about/">About</a>
+		<Navigation />
 		<h1>{pageTitle}</h1>
+		<h2>Binary Fish</h2>
+		<Footer />
 	</body>
 </html>
