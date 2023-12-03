@@ -1,4 +1,6 @@
 ---
+import '../styles/global.css';
+const pageTitle = "Home"
 
 ---
 
@@ -8,9 +10,12 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Binary Fish</title>
+		<title>{pageTitle}</title>
 	</head>
 	<body>
-		<h1>Binary Fish</h1>
+		<a href="/">Home</a>
+		<a href="/blog/">Blog</a>
+		<a href="/about/">About</a>
+		<h1>{pageTitle}</h1>
 	</body>
 </html>

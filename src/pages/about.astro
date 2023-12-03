@@ -1,0 +1,40 @@
+---
+//CSSをインポート
+import '../styles/global.css';
+const pageTitle = "About Me"
+const identity = {
+  firstName: "Snow",
+  country: "Japan",
+  occupation: "Blog writier",
+  hobbies: ["coding", "cooking", "jujutsu"],
+};
+
+const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Godot","Atcoder"];
+---
+<head>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{pageTitle}</title>
+	<style>
+		h1 {
+		  color: purple;
+		  font-size: 4rem;
+		}
+		.skills {
+			font-weight: bold;
+		}
+	  </style>
+</head>
+<body>
+    <a href="/">Home</a>
+    <a href="/blog/">Blog</a>
+    <a href="/about/">About</a>
+	<h1>{pageTitle}</h1>
+	<p>
+		I am SnowDingo, an experienced web/game developer. I live in {identity.country}, and my job is {identity.occupation}. 
+		I have experiences with {skills.map((skill) => <li class="skills">{skill}</li>)}
+	</p>
+
+
+	
+</body>
