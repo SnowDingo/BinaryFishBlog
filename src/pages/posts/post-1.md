@@ -2,7 +2,7 @@
 title: 'First Post'
 pubDate: 2023-12-03
 description: 'The very first page of the binary fish'
-author: 'Astro Learner'
+author: 'Snowdingo'
 image:
     url: 'https://docs.astro.build/assets/full-logo-light.png'
     alt: 'The full Astro logo.'
