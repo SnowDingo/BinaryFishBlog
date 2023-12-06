@@ -1,13 +1,15 @@
 ---
+layout: ../../layouts\MarkdownPostLayout.astro
 title: 'How to get started on Atcoder'
 pubDate: 2023-12-06
 description: 'A detailed entry guide to programming contests and Atcoder'
 author: 'SnowDingo'
 image:
-    url: 'https://docs.astro.build/assets/full-logo-light.png'
+    url: '../../../public/Atcoder-guide.png'
     alt: 'The full Astro logo.'
 tags: ["blog", "blogging", "news"]
 ---
+
 # How to get started on Atcoder  
 In this article you will learn how to get started on **Atcoder**  
 Estimated reading time: **12 minutes**  

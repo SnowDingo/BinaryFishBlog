@@ -23,6 +23,7 @@ h1 {
 /* nav styles */
 
 .nav-links {
+  color: #551AB8;
   width: 100%;
   top: 5rem;
   left: 48px;
@@ -32,6 +33,7 @@ h1 {
 }
 
 .nav-links a {
+  color: #551AB8;
   display: block;
   text-align: center;
   padding: 10px 0;
