@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts\MarkdownPostLayout.astro
+layout: ../../layouts/MarkdownPostLayout.astro
 title: 'How to get started on Atcoder'
 pubDate: 2023-12-06
 description: 'A detailed entry guide to programming contests and Atcoder'

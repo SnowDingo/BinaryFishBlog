@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts\MarkdownPostLayout.astro
+layout: ../../layouts/MarkdownPostLayout.astro
 title: 'First Post'
 pubDate: 2023-12-03
 description: 'The very first page of the binary fish'
