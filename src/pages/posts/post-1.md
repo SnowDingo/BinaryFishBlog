@@ -15,6 +15,7 @@ Welcome to Binary Fish, a blog all about learning Atcoder, web, and game develop
 ## Goals for this blog
 Before we get into goals and some of the basic directions of this blog, I just want to bring up this quote from Pablo Picasso.
 >Good artists copy, and great artists steal.
+
 Like the quote above, the ultimate goal for this website is to become the website that you can steal and get better at coding.
 
 1. **Making things fun**: Computer science can sometimes be boring because how you have to stare at your screen for hours. This blog's first goal is to resolve this by writing down as many ways to solve your issues or errors or wondering as you visit this website. Furthermore, this blog will hopefully be a website that helps you avoid mistakes that I made while going through this journey.

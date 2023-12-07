@@ -1,5 +1,5 @@
 html {
-  background-color: #f1f5f9;
+  background-color: #FAFAFA;
   font-family: sans-serif;
 }
 
@@ -9,6 +9,7 @@ body {
   max-width: 80ch;
   padding: 1rem;
   line-height: 1.5;
+  color: #1C3144;
 }
 
 * {
@@ -20,20 +21,27 @@ h1 {
   font-size: 2.5rem;
 }
 
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #1C3144;
+}
+
+
+
 /* nav styles */
 
 .nav-links {
-  color: #551AB8;
+  color: #1C3144;
   width: 100%;
   top: 5rem;
   left: 48px;
-  background-color: #b5a1d3;
   display: none;
   margin: 0;
 }
 
 .nav-links a {
-  color: #551AB8;
+  color: #1C3144;
   display: block;
   text-align: center;
   padding: 10px 0;
@@ -45,8 +53,10 @@ h1 {
 
 .nav-links a:hover,
 .nav-links a:focus {
-  color: black;
-  background-color: #b5a1d3;
+  color: #1C3144;
+  text-decoration: underline;
+  text-decoration-color: #449DD1;
+  text-decoration-thickness: 3px;
 }
 
 .expanded {
@@ -63,7 +73,7 @@ h1 {
   width: 40px;
   height: 5px;
   margin-bottom: 10px;
-  background-color: #b5a1d3;
+  background-color: #449DD1;
 }
 
 
