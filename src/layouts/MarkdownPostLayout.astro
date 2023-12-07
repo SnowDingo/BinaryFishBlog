@@ -5,7 +5,6 @@ import '../styles/global.css';
 import BaseLayouts from '../layouts/Base-Layouts.astro';
 ---
 <BaseLayouts pageTitle={frontmatter.title}>
-<h1>{frontmatter.title}</h1>
 <p>Written by {frontmatter.author}</p>
 <p>Published on: {frontmatter.pubDate.slice(0,10)}</p>
 <!--　説明文を追加する <p><em>{frontmatter.description}</em></p> -->

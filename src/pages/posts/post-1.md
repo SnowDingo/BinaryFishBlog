@@ -5,14 +5,12 @@ pubDate: 2023-12-03
 description: 'The very first page of the binary fish'
 author: 'Snowdingo'
 image:
-    url: '/icon.png'
+    url: '/public/icon.png'
     alt: 'The full Astro logo.'
 tags: ["blog", "blogging", "news"]
 ---
-# My First Blog Post
 
-
-Welcome to Binaru Fish, a blog all about learning Atcoder, web, and game development!! Here, I will share my learning journey as I build a new website and explore the world of computer science.
+Welcome to Binary Fish, a blog all about learning Atcoder, web, and game development!! Here, I will share my learning journey as I build a new website and explore the world of computer science.
 
 ## Goals for this blog
 Before we get into goals and some of the basic directions of this blog, I just want to bring up this quote from Pablo Picasso.
