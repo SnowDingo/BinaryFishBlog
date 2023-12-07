@@ -5,7 +5,7 @@ pubDate: 2023-12-03
 description: 'The very first page of the binary fish'
 author: 'Snowdingo'
 image:
-    url: '../../../src/icon.png'
+    url: '/public/icon.png'
     alt: 'The full Astro logo.'
 tags: ["blog", "blogging", "news"]
 ---
