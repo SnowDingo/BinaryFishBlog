@@ -2,6 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'First Post'
 pubDate: 2023-12-03
+imgurl: '/icon.png'
 description: 'The very first page of the binary fish'
 author: 'Snowdingo'
 image:

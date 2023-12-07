@@ -2,5 +2,19 @@
 const {url,title,imgurl} = Astro.props
 ---
 <li>
+    <div class="blogItem">
+    <img src={imgurl} style="max-height: 320px; max-width: 240px;"  />
     <a href={url}>{title}</a>
+</div>
 </li>
+
+<style>
+    .blogItem {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: flex-start;
+        align-content: flex-start;
+        
+    }
+</style>

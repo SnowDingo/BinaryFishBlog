@@ -4,6 +4,7 @@ title: 'How to get started on Atcoder'
 pubDate: 2023-12-06
 description: 'A detailed entry guide to programming contests and Atcoder'
 author: 'SnowDingo'
+imgurl: '/Atcoder-guide.png'
 image:
     url: '/Atcoder-guide.png'
     alt: 'Atcoder'
