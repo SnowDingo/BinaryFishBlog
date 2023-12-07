@@ -5,7 +5,7 @@ pubDate: 2023-12-06
 description: 'A detailed entry guide to programming contests and Atcoder'
 author: 'SnowDingo'
 image:
-    url: '../../../public/Atcoder-guide.png'
+    url: '/Atcoder-guide.png'
     alt: 'The full Astro logo.'
 tags: ["blog", "blogging", "news"]
 ---

@@ -1,4 +1,4 @@
 # Binary Fish Blog
-/components stores all he component files like navar.
-/Pages stores pages like about, archives, posts
-/styles stores css
+Welcome to Binary Fish!!
+Binary Fish is a blog where you can learn about web and game development.
+Binary Fish also has some guides to Atcoder.
