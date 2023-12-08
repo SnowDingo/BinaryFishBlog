@@ -1,5 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
 html {
   background-color: #FAFAFA;
   font-family: sans-serif;
@@ -18,7 +57,14 @@ body {
 * {
   box-sizing: border-box;
 }
+header {
+  background-color: white;
+  width: 100%;
+  padding: 30px 4% 10px;
+  display: flex;
+  align-items: center;
 
+}
 h1 {
   margin: 1rem 0;
   font-size: 2.5rem;
