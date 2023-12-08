@@ -91,9 +91,25 @@ display: inline;
   margin-bottom: 10px;
   background-color: #449DD1;
 }
+.bold {
+  font-weight: bold;
+}
+.roundedimg {
+  border-radius: 1%;
+}
 
+.allblog {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: auto;
+}
+.maxedout {
+  max-width: 240px;
+  align-items: center;
+  flex-direction: column;
 
-
+}
 @media screen and (min-width: 636px) {
   .nav-links {
     margin-left: 5em;

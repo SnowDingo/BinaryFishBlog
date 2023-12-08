@@ -7,7 +7,7 @@ const pageTitle = "Articles"
 ---
 <BaseLayouts pageTitle={pageTitle}>
         <p>Take a loot at numerouse blog posts and articles about Atcoder, Game dev, and Web development</p>
-        <ul>
-          {allPosts.map((post) => <BlogPostComponent url={post.url} title={post.frontmatter.title} />)}
+        <ul classname="allblog">
+          {allPosts.map((post) => <BlogPostComponent url={post.url} imgURL={post.frontmatter.imgurl} description={post.frontmatter.description} title={post.frontmatter.title} />)}
           </ul>
 </BaseLayouts>
