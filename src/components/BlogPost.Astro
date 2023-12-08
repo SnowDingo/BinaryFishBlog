@@ -1,19 +1,4 @@
 ---
-const {url,title} = Astro.props
+const { title, url } = Astro.props;
 ---
-<li>
-    <div class="blogItem">
-    <a href={url}>{title}</a>
-</div>
-</li>
-
-<style>
-    .blogItem {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        align-items: flex-start;
-        align-content: flex-start;
-        
-    }
-</style>
+<li><a href={url}>{title}</a></li>
