@@ -100,15 +100,37 @@ display: inline;
 
 .allblog {
   display: flex;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
   align-items: center;
   width: auto;
+  padding: 0;
+  justify-content: center;
 }
 .maxedout {
-  max-width: 240px;
-  align-items: center;
+  width: 240px;
+  height: 266px;
   flex-direction: column;
-
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,.2);
+  margin: 2%;
+}
+img .cardimg {
+  margin: 0;
+  order: 0;
+  display: block;
+  margin: auto;
+  padding-top: 56.25%;
+  background-size: cover;
+  width: 100%;
+}
+.textcontainer {
+  padding: 2%;
+}
+.cardtxt {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
 }
 @media screen and (min-width: 636px) {
   .nav-links {

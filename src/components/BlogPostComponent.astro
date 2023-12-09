@@ -2,7 +2,10 @@
 const { title, url,imgURL,description } = Astro.props;
 ---
 <li class="maxedout">
-    <a href={url} class="bold"><img  class="roundedimg thumbanil" src={imgURL} width="240" height="120" alt="" /> </a>
-    <a href={url} class="bold">{title}</a>
-    <p>{description}</p>
+    <a href={url} class="bold"><img  height="120px" class="cardimg" src={imgURL} alt="" /> </a>
+    <div class="textcontainer">
+        <a href={url} class="bold cardtxt">{title}</a>
+        <p class="cardtxt">{description}</p>
+    </div>
+
 </li>
