@@ -1,7 +1,15 @@
 ---
 import BaseLayout from '../layouts/Base-Layouts.astro';
 const pageTitle = "Binary Fish";
+import BlogPostComponent from '../components/BlogPostComponent.astro'
+const allPosts = await Astro.glob('../pages/posts/*.md');
 ---
 <BaseLayout pageTitle={pageTitle}>
   <h2>Atcoder, Game and Web development guide for <span class="marker">everyone.</span></h2>
+  <div class="recentpost">
+    <h3>Recent posts</h3>
+    <ul class="allblog">
+      {allPosts.map((post) => <BlogPostComponent url={post.url} imgURL={post.frontmatter.imgurl} description={post.frontmatter.description} title={post.frontmatter.title} />)}
+      </ul>
+  </div>
 </BaseLayout>
