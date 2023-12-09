@@ -2,32 +2,29 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'What is so great about Godot?'
 pubDate: 2023-12-08
-imgurl: '/Godotimage.png'
+imgurl: '/public/image3.png'
 description: 'What is so great about Godot?'
 author: 'Snowdingo'
 image:
-    url: '/Godotimage.png'
+    url: '/public/image3.png'
     alt: 'The full Astro logo.'
 tags: ["blog", "Godot", "begginer"]
 ---
-# GodotEngineの何が凄いのか
-最近Unityというゲームエンジンが料金プランを変えたりしたことで話題になっています。
-つい５年前ぐらいまでは**UnityとUE**【UnrealEngine】が２強でしたが、最近起きているゲーム業界の移り変わりと共に、そんな常識も変わっています。その中で少しずつ力を伸ばしてきたのが今回紹介する**GodotEngine**です。
-最近は日本でもGodot移管する書籍を見かけ始めるようになったのでこの記事を書くことにしました。
-この記事が気に入ったら、GootEngineが広まるためにもSNSでのシェア等よろしくお願いします。
+Recently, there was a large news in game dev community which was all about famouse game engine called Unity changing its charging mesurement.
+About five years ago, Unity and Unreal Engine were the **top two** on game dev market. However, the boom of `Godot` is changing this fact that was true five years ago.
+If you like this article, please consider sharing this on social media platforms.
 
-![D4C4A8DB-E2E6-4F06-AE08-70A7EC25718C.jpeg](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2850578/c56b2522-9b13-90c5-7983-9d34f62a587d.jpeg)
 
-## GodotEngineって何🤔？？？
-::: note info
+## What is Godot Engine🤔？？？
 この先は回りくどく書いているだけなので忙しい人向けにこの記事の要点を書いておきます
 Godotのすごい所
 1. 初心者でも使いやすい
 2. 軽い
-2. コミュニティが充実している
-2. 完全無料で使う事ができる
-2. 3D/2Dどちらのゲームでも使う事ができる
-:::
+3. コミュニティが充実している
+4. 完全無料で使う事ができる
+5. 3D/2Dどちらのゲームでも使う事ができる
+
+
 GodotEngineは先ほども言った通り２０１４年に最初のバージョンがリリースされた、ゲームエンジン（ゲームを作成するのに必要な機能などがたくさん詰まっているアプリ）です。そんなGodoEngineはほかのゲームエンジンなどとは違い、**オープンソース**なので誰でもGodotEngineのソースコードを変更したり、見ることが出来ます。
 UnityやUE(unrealengine)のように特定の大企業が運営しているわけでもなく、Godotの開発者たちとそのコミュニティのメンバーが日々GodotEngineをより良いものにしています。
 『3DCG業界で有名なBlenderもGodotと同じ体制をとっているので、このまま行けばBlenderと同じぐらい有名になるかもしれません…』
