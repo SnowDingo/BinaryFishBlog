@@ -16,13 +16,13 @@ If you like this article, please consider sharing this on social media platforms
 
 
 ## What is Godot Engine🤔？？？
-この先は回りくどく書いているだけなので忙しい人向けにこの記事の要点を書いておきます
-Godotのすごい所
-1. 初心者でも使いやすい
-2. 軽い
-3. コミュニティが充実している
-4. 完全無料で使う事ができる
-5. 3D/2Dどちらのゲームでも使う事ができる
+Here are main takeaways of this article
+The great part of Godot
+1. Begginer friendly
+2. Light 
+3. Supportive and active communities
+4. Completely free
+5. Supports both 2D and 3D games
 
 
 GodotEngineは先ほども言った通り２０１４年に最初のバージョンがリリースされた、ゲームエンジン（ゲームを作成するのに必要な機能などがたくさん詰まっているアプリ）です。そんなGodoEngineはほかのゲームエンジンなどとは違い、**オープンソース**なので誰でもGodotEngineのソースコードを変更したり、見ることが出来ます。
@@ -37,12 +37,11 @@ Unityなどとは違い、Godotは**完全無料**で使ことが出来ます。
 プログラミングにはPythonに似たGDScriptという独自の言語か、C#などのC言語を使うことが出来ます。
 Unityから移行する時も、c#を引き続き使えるので楽です。
 下の画像の通り、なかなか使えるエディターも内蔵しているので割とほとんどの作業をGodotで完結できるのもGodotの強みの一つです。
-![スクリーンショット 2023-10-09 220629.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2850578/a200aff7-ee7c-8708-37e2-a7cfb5ed8ef7.png)
 
 嬉しいことに僕がGodotを使い始めた１年前よりは日本語の解説も増え、需要も大幅に伸びました。
 そんな感じで将来性もしっかりあるので、使い方を学んで**絶対**損はないです。
 
-![スクリーンショット 2023-10-09 215424.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2850578/a1483626-3933-ce6a-0add-83e64c198fda.png)
+![Godot editor](/public/EditorImage.png)
 <small>-GoogleTrendsのGodotの検索結果-
 需要が少しずつ上がっているのが視覚的に分かる</small>
 
