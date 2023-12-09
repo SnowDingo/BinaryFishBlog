@@ -38,15 +38,18 @@ https://atcoder.jp/contests/abc321/tasks/abc321_b
 ## Algorithm
 So here is a detailed guide to this problem.
 Firstly, one thing to keep in mind when solving this problem is that like the image below, our total score is the sum of scores without the maximum and minimum scores.
-![](https://storage.googleapis.com/zenn-user-upload/fc9c44b5f8ac-20231022.png)
+
 Basically the only thing we have to do is to test every possibility for score "i" from 0-100. If we have a required score that is lower than 100, that's great and we can just print the score "i". On the other hand, even if score i of 100 can't reach score X, we can then print -1.
+
 ![](/image2.png)
+
 Below is the code that got AC.
 
 
 ## Example Code in Python
 This is the code that got AC on this problem.
 Feel free to read the comment that is attached to the code.
+
 ```py
 # -*- coding: utf-8 -*-
 #Get Inputs

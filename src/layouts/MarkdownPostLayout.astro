@@ -8,6 +8,6 @@ import BaseLayouts from '../layouts/Base-Layouts.astro';
 <p>Written by {frontmatter.author}</p>
 <p>Published on: {frontmatter.pubDate.slice(0,10)}</p>
 <!--　説明文を追加する <p><em>{frontmatter.description}</em></p> -->
-<img src={frontmatter.image.url} width="300" height={150} alt={frontmatter.image.alt} />
+<img src={frontmatter.image.url} width="100%" height="auto" alt={frontmatter.image.alt} />
 <slot />
 </BaseLayouts>
