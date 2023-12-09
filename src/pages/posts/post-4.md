@@ -2,11 +2,11 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'What is so great about Godot?'
 pubDate: 2023-12-08
-imgurl: '/public/image3.png'
+imgurl: '/image3.png'
 description: 'What is so great about Godot?'
 author: 'Snowdingo'
 image:
-    url: '/public/image3.png'
+    url: '/image3.png'
     alt: 'The full Astro logo.'
 tags: ["blog", "Godot", "begginer"]
 ---
