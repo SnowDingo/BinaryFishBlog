@@ -10,7 +10,7 @@ image:
     alt: 'The full Astro logo.'
 tags: ["blog", "Godot", "begginer"]
 ---
-Estimated reading time: **4 minutes**  
+Estimated reading time: **3 minutes**  
 
 Recently, there was a large news in game dev community which was all about famouse game engine called Unity changing its charging mesurement.
 About five years ago, Unity and Unreal Engine were the **top two** on game dev market. However, the boom of `Godot` is changing this fact that was true five years ago.
@@ -48,7 +48,8 @@ The video attached below shows mantmajor titles made with Godot. It is intrestin
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UAS_pUTFA7o?si=W5rOJQMFEtPYd_Dj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-# 最後に　
+# Conclusion
+
 In conclusion, Godot is wonderful game engine despite some of the downsides.  From its friendly and polished quality, you can build games from 2d tradtional tetris to massive 3d open world game.
 The link to download the game engine is attached below so please go and download Godot.
 Thank you for reading.
