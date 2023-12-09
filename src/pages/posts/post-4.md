@@ -41,7 +41,7 @@ Unityから移行する時も、c#を引き続き使えるので楽です。
 嬉しいことに僕がGodotを使い始めた１年前よりは日本語の解説も増え、需要も大幅に伸びました。
 そんな感じで将来性もしっかりあるので、使い方を学んで**絶対**損はないです。
 
-![Godot editor](/image4.png)
+![Godot editor](/public/image4.png)
 <small>-GoogleTrendsのGodotの検索結果-
 需要が少しずつ上がっているのが視覚的に分かる</small>
 
