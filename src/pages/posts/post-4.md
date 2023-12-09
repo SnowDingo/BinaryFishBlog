@@ -10,6 +10,8 @@ image:
     alt: 'The full Astro logo.'
 tags: ["blog", "Godot", "begginer"]
 ---
+Estimated reading time: **4 minutes**  
+
 Recently, there was a large news in game dev community which was all about famouse game engine called Unity changing its charging mesurement.
 About five years ago, Unity and Unreal Engine were the **top two** on game dev market. However, the boom of `Godot` is changing this fact that was true five years ago.
 If you like this article, please consider sharing this on social media platforms.
@@ -24,41 +26,32 @@ The great part of Godot
 4. Completely free
 5. Supports both 2D and 3D games
 
+So let's get into the details.
+Godot Engine is a **opensource** games engine that was released in 2014. Because of how this engine is open-source, it is completely free to use.
 
-GodotEngineは先ほども言った通り２０１４年に最初のバージョンがリリースされた、ゲームエンジン（ゲームを作成するのに必要な機能などがたくさん詰まっているアプリ）です。そんなGodoEngineはほかのゲームエンジンなどとは違い、**オープンソース**なので誰でもGodotEngineのソースコードを変更したり、見ることが出来ます。
-UnityやUE(unrealengine)のように特定の大企業が運営しているわけでもなく、Godotの開発者たちとそのコミュニティのメンバーが日々GodotEngineをより良いものにしています。
-『3DCG業界で有名なBlenderもGodotと同じ体制をとっているので、このまま行けばBlenderと同じぐらい有名になるかもしれません…』
+No fees. No payments. No pro subscriptions.
 
-オープンソースなのはその特徴の一つですが、Godotの最大の特徴ともいえるのがその**料金**です。
-Unityなどとは違い、Godotは**完全無料**で使ことが出来ます。
-もちろん、スプラッシュスクリーンにロゴが表示されたりすることはありません。この料金設定のおかげで、GodotEngineはインディーゲーム制作者や学生さんなどでも気軽に使いやすくなっています。
-実際、UnityやUEを使用すると割と収益の大部分が取られてしまうのですが、Godotを使用すれば完全無料なので収益のほとんどを残す事ができます。
+Furthermore, this game engine offers GDScript(basicaly Python) as a main coding language, which really helps game devs with any levels to code around their project.
+Although Godot doesn't fully support c#, it still has some resources you can use to migrate from Unity.
 
-プログラミングにはPythonに似たGDScriptという独自の言語か、C#などのC言語を使うことが出来ます。
-Unityから移行する時も、c#を引き続き使えるので楽です。
-下の画像の通り、なかなか使えるエディターも内蔵しているので割とほとんどの作業をGodotで完結できるのもGodotの強みの一つです。
-
-嬉しいことに僕がGodotを使い始めた１年前よりは日本語の解説も増え、需要も大幅に伸びました。
-そんな感じで将来性もしっかりあるので、使い方を学んで**絶対**損はないです。
-
-![Godot editor](/public/image4.png)
-<small>-GoogleTrendsのGodotの検索結果-
-需要が少しずつ上がっているのが視覚的に分かる</small>
-
-## Godotで出来ること
-Godotでは2D、3Dどちらも作る事が出来ます。つい最近まで3Dは弱いと言われていましたが、4.0という大型のアップデートを機に3Dにも強くなりました。2Dに関しては以前から高い評価を得ていたのに加え、先ほども述べた4.0のアップデートでさらに強化されているのでとても使いやすいです。
+With these futures, godot is supported by thousands of game developers **worldwide**...
 
 
-GodotではAAAゲーム(スタジオが作る超ボリュームが高いゲーム)が造られた経験はないのですが、少しずつGodotで作られヒットしたインディーゲームは増え続けています。
-インディーゲーム以外でも最近は利用され始めているので、もしかしたらGodotで超有名ゲームが作られる日もそう遠く無いのかもしれません。
+<img src="/public/image5.png"  alt="GodotEditor"/>
 
-下にGodotで作成されたゲームを挙げてくので良ければ「こんな感じのゲームも作れるんだ〜」みたいな感じで見てみてください
+## Things you can do with Godot
+You can make both 2D and 3D games in Godot. Because it recived a major update 4.0 last year the overall feel of the engine got polished too.
+
+There is currently no AAA games made with Godot but because of its popularity there might be one soon.
+
+The video attached below shows mantmajor titles made with Godot. It is intresting and inspiring so watching until the end is **strongly reccomanded**.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UAS_pUTFA7o?si=W5rOJQMFEtPYd_Dj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # 最後に　
-Godotは日本語の情報も増えつつあり、人気が高まっているゲームエンジンです。下のリンクにチュートリアルをまとめているので、是非今からGodotライフを始めてみてください。
-最後まで読んでいただきありがとうございました。
+In conclusion, Godot is wonderful game engine despite some of the downsides.  From its friendly and polished quality, you can build games from 2d tradtional tetris to massive 3d open world game.
+The link to download the game engine is attached below so please go and download Godot.
+Thank you for reading.
 
-https://qiita.com/FireDingo/items/d6e2a5674a965100d1a2
+https://godotengine.org/
 

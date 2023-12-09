@@ -3,6 +3,7 @@ const { frontmatter } = Astro.props;
 import { Image } from 'astro:assets';
 import '../styles/global.css';
 import BaseLayouts from '../layouts/Base-Layouts.astro';
+import '../styles/global.css';
 ---
 <BaseLayouts pageTitle={frontmatter.title}>
 <p>Written by {frontmatter.author}</p>
@@ -11,3 +12,10 @@ import BaseLayouts from '../layouts/Base-Layouts.astro';
 <img src={frontmatter.image.url} width="100%" height="auto" alt={frontmatter.image.alt} />
 <slot />
 </BaseLayouts>
+<style>
+    img {
+      max-width: 638px;
+      height: auto;
+      border-radius: 2%
+    }
+  </style>

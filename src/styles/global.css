@@ -37,7 +37,10 @@ blockquote{
   background-color:#ebebeb ;
 }
 
-
+code {
+  padding: 2px 5px;
+  border-radius: 2%;
+}
 /* Marker*/
 span.marker{
     /* マーカーを引く */
