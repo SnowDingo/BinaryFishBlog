@@ -3,13 +3,13 @@
 html {
   background-color: #FAFAFA;
   font-family: sans-serif;
+  width: 100%;
 }
 
 body {
+  max-width: 80ch;
   margin: 0 auto;
   width: 100%;
-  max-width: 80ch;
-  padding: 1rem;
   line-height: 1.5;
   color: #1C3144;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -18,7 +18,20 @@ body {
 * {
   box-sizing: border-box;
 }
+.body {
+  max-width: 80ch;
+  text-align: center;
+  padding: 1rem;
+  margin: 0 auto;
+  width: 100%;
+}
 
+header {
+  max-width: 100%;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05); /*これを付け足し*/
+  text-align: center;
+  width: auto;
+}
 h1 {
   margin: 1rem 0;
   font-size: 2.5rem;
@@ -139,6 +152,11 @@ img .cardimg {
 .recentpost {
   margin-top: 2%;
 }
+
+.logo {
+  font-size: 128px;
+}
+
 @media screen and (min-width: 636px) {
   .nav-links {
     margin-left: 5em;
