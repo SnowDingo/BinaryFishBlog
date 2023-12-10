@@ -29,3 +29,8 @@ So here are some of the very generalized pros or good parts about doing Atcoder 
 Before getting started on Atcoder, there is one more important things in Atcoder; rating.
 In Atcoder, when you participate in competion and solve problems, your ¨rating¨ either increases or decreases depending on how well you did on the competition.
 For every 400 points or rating, you become a new color.
+> * **0-400 Grey**
+> * **401-800 Brown** (Skill level about the same as a college student with computer science as their major)
+> * **801-1000 Green** (Very skilled at Algorythms)
+> * **1001-1200 Light** blue (Skills people at this rank will most likely to fill the needs of average tech company)
+> * **12001-1400 Blue** (The skill exceeds the general high-standard requirement of all the companies)

@@ -37,7 +37,7 @@ Although Godot doesn't fully support c#, it still has some resources you can use
 With these futures, godot is supported by thousands of game developers **worldwide**...
 
 
-<img src="/public/image5.png"  alt="GodotEditor"/>
+<img src="/image5.png"  alt="GodotEditor"/>
 
 ## Things you can do with Godot
 You can make both 2D and 3D games in Godot. Because it recived a major update 4.0 last year the overall feel of the engine got polished too.
