@@ -46,6 +46,9 @@ a {
   cursor: pointer;
   color: #1C3144;
 }
+p {
+  text-align: start;
+}
 
 blockquote{
   background-color:#ebebeb ;

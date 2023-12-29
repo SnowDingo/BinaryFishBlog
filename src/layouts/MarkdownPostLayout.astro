@@ -6,13 +6,19 @@ import BaseLayouts from '../layouts/Base-Layouts.astro';
 import '../styles/global.css';
 ---
 <BaseLayouts pageTitle={frontmatter.title}>
-<p>Written by {frontmatter.author}</p>
+<div class="blogpage">
+  <p>Written by {frontmatter.author}</p>
 <p>Published on: {frontmatter.pubDate.slice(0,10)}</p>
 <!--　説明文を追加する <p><em>{frontmatter.description}</em></p> -->
 <img src={frontmatter.image.url} width="100%" height="auto" alt={frontmatter.image.alt} />
 <slot />
 </BaseLayouts>
+</div>
 <style>
+  .blogpage {
+    max-width: 80ch;
+    margin: 0 auto;
+  }
     img {
       max-width: 638px;
       height: auto;
