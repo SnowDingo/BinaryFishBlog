@@ -32,7 +32,7 @@ If it seems like it is too complicated, please read the official text by clickin
 https://atcoder.jp/contests/abc332/tasks/abc332_c
 
 ## How to solve
-So here is a general image that shows this problem.
+So here is an visual representation of this problem.
 <img src="/public/guide1.png"  alt="Detailed Guide"/>
 
 Before solving this problem, let's take a look at what is will be like to graph the example 1.
