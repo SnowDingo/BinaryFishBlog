@@ -6,7 +6,7 @@ const allPosts = await Astro.glob('../pages/posts/*.md');
 const pageTitle = "Articles"
 ---
 <BaseLayouts pageTitle={pageTitle}>
-        <p>Take a loot at numerouse blog posts and articles about Atcoder, Game dev, and Web development</p>
+        <p class="text abouttext" style="text-align: center;">Take a loot at numerouse blog posts and articles about Atcoder, Game dev, and Web development</p>
         <ul class="allblog">
           {allPosts.map((post) => <BlogPostComponent url={post.url} imgURL={post.frontmatter.imgurl} description={post.frontmatter.description} title={post.frontmatter.title} />)}
           </ul>

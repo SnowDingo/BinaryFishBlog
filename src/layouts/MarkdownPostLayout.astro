@@ -6,25 +6,6 @@ import BaseLayouts from '../layouts/Base-Layouts.astro';
 import '../styles/global.css';
 ---
 <BaseLayouts pageTitle={frontmatter.title}>
-  <head>
-    <script type="application/ld+json">
-      {
-        "@context": "https://binary-fish.vercel.app/",
-        "@type": "BlogPosting",
-        "headline": {frontmatter.title},
-        "image": [
-          {frontmatter.image.url}
-         ],
-        "datePublished": {frontmatter.puDate},
-        "dateModified": {frontmatter.puDate},
-        "author": [{
-            "@type": "Person",
-            "name": "Snow Dingo",
-            "url": "https://binary-fish.vercel.app/about/"
-          }]
-      }
-      </script>
-  </head>
 <div class="blogpage">
   <p>Written by {frontmatter.author}</p>
 <p>Published on: {frontmatter.pubDate.slice(0,10)}</p>

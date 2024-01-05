@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Atcoder Begginers Contest 332 "T-shirts" explained'
 pubDate: 2023-12-08
 imgurl: '/image6.png'
-description: 'A detailed guide to solving ABC 332 problem C.'
+description: 'A detailed guide at solving ABC 332 problem C.'
 author: 'Snowdingo'
 image:
     url: '/image6.png'

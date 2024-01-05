@@ -2,7 +2,9 @@
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import '../styles/global.css';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 const {pageTitle} = Astro.props;
+
 ---
 <html lang="en">
   <head>
@@ -13,6 +15,7 @@ const {pageTitle} = Astro.props;
     <meta name="generator" content={Astro.generator} />
     <meta name="description" content="The Binary Fish blog is an informative and engaging platform that covers a wide range of topics related to Atcoder, game development, and web development. Explore the world of computer science through our easy-to-read articles..." />
     <title>{pageTitle}</title>
+    <SpeedInsights />
   </head>
   <body>
     <Header />
