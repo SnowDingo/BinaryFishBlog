@@ -232,4 +232,5 @@ pre {
 blockquote {
   padding: 2%;
   border-radius: 2%;
+  text-align: start;
 }
