@@ -1,8 +1,8 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'How to get started on Atcoder'
+title: 'How to get started on Atcoder- A complete guide for begginer coders in 2024'
 pubDate: 2023-12-06
-description: 'A detailed entry guide to programming contests and Atcoder'
+description: 'A guide to start Atcoder'
 author: 'SnowDingo'
 imgurl: '/Atcoder-guide.png'
 image:

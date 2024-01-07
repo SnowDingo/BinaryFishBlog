@@ -26,6 +26,10 @@ body {
   margin: 0 auto;
   width: 100%;
 }
+.page {
+  margin-left: auto;
+  margin-right: auto;
+}
 
 header {
   max-width: 100%;
@@ -163,6 +167,9 @@ img .cardimg {
   width: 100%;
   height: auto;
   box-sizing: border-box;
+  padding-bottom: 5%;
+  text-align: center;
+  margin: 2% auto;
 }
 
 .recentpost {
@@ -204,8 +211,24 @@ img .cardimg {
 }
 
 @media screen and (max-width: 820px) {
-  .main{
-    width: 80%;
+  body {
+    width: 100%;
+  }
+  p{
+    text-align: start;
+    font-weight: 500;
+    padding: 16px;
+  }
+  .page{
+    width: 100%;
+    text-align: center;
+    margin: 0 2%
+  } 
+   div .blogpage img {
+    max-width: 100%;
+  }
+  iframe,.inframe {
+    max-width: 90%;
   }
   .allblog {
     display: flex;
@@ -219,6 +242,8 @@ img .cardimg {
     justify-content: center;
   }
 }
+
+
 .blogpage img {
   max-width: 690px;
   height: auto;
@@ -233,4 +258,10 @@ blockquote {
   padding: 2%;
   border-radius: 2%;
   text-align: start;
+  margin: 1%;
+}
+
+.blogpage {
+  margin-right: auto;
+  margin-left: auto;
 }

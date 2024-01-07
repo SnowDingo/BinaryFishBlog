@@ -1,9 +1,9 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'What is so great about Godot?'
+title: 'What is so good about Godot? -BinaryFish'
 pubDate: 2023-12-08
 imgurl: '/image3.png'
-description: 'What is so great about Godot?'
+description: 'The new GodotEngine explained in simple 3 minutes article'
 author: 'Snowdingo'
 image:
     url: '/image3.png'
@@ -46,7 +46,7 @@ There is currently no AAA games made with Godot but because of its popularity th
 
 The video attached below shows mantmajor titles made with Godot. It is intresting and inspiring so watching until the end is **strongly reccomanded**.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UAS_pUTFA7o?si=W5rOJQMFEtPYd_Dj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UAS_pUTFA7o?si=W5rOJQMFEtPYd_Dj" title="YouTube video player" frameborder="0" class="iframe" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # Conclusion
 
@@ -55,4 +55,3 @@ The link to download the game engine is attached below so please go and download
 Thank you for reading.
 
 https://godotengine.org/
-

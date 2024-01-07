@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: 'The top 10 **must have** chrome extensions for anyone in2024'
 pubDate: 2023-12-08
 imgurl: '/image7.png'
-description: 'The top 10 chrome extensions that anyone should use everyday.'
+description: 'This is the top 10 chrome extensions in 2024.'
 author: 'Snowdingo'
 image:
     url: '/image7.png'
