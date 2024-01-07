@@ -29,4 +29,3 @@ Overall, this extension is as simple as Stickman and it is **must have** for any
 https://chromewebstore.google.com/detail/google-mail-checker/mihcahmgecmbnbcchbopgniflfhgnkff?hl=ja
 
 
-

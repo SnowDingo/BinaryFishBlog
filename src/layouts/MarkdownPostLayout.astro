@@ -4,14 +4,23 @@ import { Image } from 'astro:assets';
 import '../styles/global.css';
 import BaseLayouts from '../layouts/Base-Layouts.astro';
 import '../styles/global.css';
+/* Icons */
 ---
 <BaseLayouts pageTitle={frontmatter.title}>
 <div class="blogpage">
-  <p>Written by {frontmatter.author}</p>
-<p>Published on: {frontmatter.pubDate.slice(0,10)}</p>
+  <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: start; ">
+    <div style="margin-right: 2%;">
+        
+        <p>Written by <strong>{frontmatter.author}</strong></p>
+    </div>
+
+    <p>Published on: <strong>{frontmatter.pubDate.slice(0,10)}</strong></p>
+  </div>
 <!--　説明文を追加する <p><em>{frontmatter.description}</em></p> -->
 <img src={frontmatter.image.url} width="100%" height="auto" alt={frontmatter.image.alt} />
-<slot />
+<div class="blogarticle">
+  <slot />
+</div>
 </BaseLayouts>
 </div>
 <style>

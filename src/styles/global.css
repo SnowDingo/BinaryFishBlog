@@ -123,14 +123,20 @@ footer {
 .text {
   text-align: center;
 }
+.carrd {
+  margin: 2% auto;
+}
 
 .allblog {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  flex-direction: row;
   width: auto;
   padding: 0;
-  justify-content: center;
+  justify-content:start;
+  margin: 0 0;
+  flex-wrap: wrap;
 }
 .maxedout {
   width: 240px;
@@ -139,7 +145,7 @@ footer {
   overflow: hidden;
   border-radius: 8px;
   box-shadow: 0 4px 15px rgba(0,0,0,.2);
-  margin: 2%;
+  margin: 1.2%;
 }
 img .cardimg {
   margin: 0;
@@ -172,6 +178,11 @@ img .cardimg {
   margin-right: auto;
   width: 80%;
 }
+.main {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 @media screen and (min-width: 636px) {
   .nav-links {
@@ -190,4 +201,35 @@ img .cardimg {
     display: none;
   }
 
+}
+
+@media screen and (max-width: 820px) {
+  .main{
+    width: 80%;
+  }
+  .allblog {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    width: auto;
+    padding: 0;
+    margin: 0 0;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+.blogpage img {
+  max-width: 690px;
+  height: auto;
+  border-radius: 2%
+}
+pre {
+  padding: 2%;
+  border-radius: 2%;
+  text-align: start;
+}
+blockquote {
+  padding: 2%;
+  border-radius: 2%;
 }
