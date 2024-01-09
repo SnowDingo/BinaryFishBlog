@@ -52,11 +52,11 @@ https://atcoder.jp/home
 
 Then, there is a "sign up" button in the header, so click it like the image below.
 
-![signup button location](/public/signup1.png)
+![signup button location](/signup1.png)
 
 Consequently, it will lead to the sign-up form, where you can fill out your new account username, password, and email. Some choices are optional, so only four of them are required. When you are ready, press the sign-up button to finalize the process.
 
-![signup form](/public/signinAtcoder.png)
+![signup form](/signinAtcoder.png)
 
 If you have successfully created an Atcoder account,  you have two choices; you can choose to wait for the competition or to try doing some sample problems before participating.
 From past experiences, doing some sample problems is strongly  **recommanded** for anyone who started Atcoder.
