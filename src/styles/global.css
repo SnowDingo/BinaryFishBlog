@@ -50,6 +50,9 @@ a {
   cursor: pointer;
   color: #1C3144;
 }
+
+
+
 p {
   text-align: start;
 }
@@ -235,7 +238,9 @@ img .cardimg {
     flex-wrap: wrap;
     align-items: center;
     flex-direction: row;
-    width: auto;
+    width: 
+    
+    uto;
     padding: 0;
     margin: 0 0;
     flex-wrap: wrap;
@@ -264,4 +269,10 @@ blockquote {
 .blogpage {
   margin-right: auto;
   margin-left: auto;
+}
+
+.blogslot  a {
+  text-decoration: underline;
+  cursor: pointer;
+  color: 	#1a0dab;
 }

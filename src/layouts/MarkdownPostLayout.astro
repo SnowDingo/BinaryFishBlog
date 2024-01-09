@@ -18,8 +18,8 @@ import '../styles/global.css';
   </div>
 <!--　説明文を追加する <p><em>{frontmatter.description}</em></p> -->
 <img src={frontmatter.image.url} width="100%" class="thumb" height="auto" alt={frontmatter.image.alt} />
-<div class="blogarticle">
-  <slot />
+<div class="blogarticle blogslot">
+  <slot class="blogslot" />
 </div>
 </BaseLayouts>
 </div>

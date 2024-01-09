@@ -19,12 +19,13 @@ Estimated reading time: **12 minutes**
 https://atcoder.jp/users/DINGOO
  
 ## What is Atcoder?  
-Atcoder is a Japanese website that hosts programming competitions every weekend. Don't worry about the fact that Atcoder is a Japanese website because this website also supports English well. Atcoder has three main contests that they host regularly; Atcoder Beginners Contest (**ABC contest**), Atcoder Regular Contest(**ARC**), and Atcoder Heuristic Contest (**AHC**).  
-There are lots of other contests like Atcoder Grand Contest that you can participate in, yet if you are a person who just started coding or Atcoder, participating mainly in Atcoder Beginners Contest is **strongly recommended**.
+Atcoder is a Japanese website that hosts weekly programming competitions. Atcoder is a Japanese website,but it also supports English well. Atcoder has three main contests that they host regularly: Atcoder Beginners Contest (**ABC contest**), Atcoder Regular Contest(**ARC**), and Atcoder Heuristic Contest (**AHC**).  
+There are lots of other contests like Atcoder Grand Contest that you can participate in, however if you are a person who just started coding or Atcoder, participating mainly in Atcoder Beginners Contest is **strongly recommended**.
+
 ## Some pros of starting Atcoder
 So here are some of the very generalized pros or good parts about doing Atcoder regularly are...
 
- 1. You can learn deeper about your favorite programming languages like python and C#. **Doing Atcoder helps exploring and learning hidden functions and libraries that you can use to boost your coding productivity.**
+ 1. You can learn deeper about your favorite programming languages like python and C#. 
  2. **You can learn some of the important alogorithms that can help you in your real world project.**
 3. **Abstract thinking** As you get beter on Atcoder, you need more and more skills of thinking the problem abstract and simple.
 
@@ -44,8 +45,13 @@ For every 400 points or rating, you become a new color.
 ## How to start your jorney
 Now that we know what is Atcoder, let's start coding. This section will brifely summarize the process needed to start Atcoder from registrating to actually participating in the contest.
 
-# Step 1: Create a Atcoder account
+## Step 1: Create a Atcoder account
 The first step for any competitor is to create an account. To do this, first visit the official Atcoder website liniked below.
 
 https://atcoder.jp/home
 
+Then you should be able to find a "sign up" button, so click it like the image shown below.
+
+![signup button location](/signup1.png)
+
+After that, it will lead to signup form, where you can fill out your new accoun't username, password, and email. Some choices are optional, so there are only four of them that is required.

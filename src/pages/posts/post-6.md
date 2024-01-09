@@ -15,6 +15,7 @@ Have you ever visited or hopped into the Chrome Web Store? Most people don't kno
 Like Adblockers, there are many other useful types of Chrome extensions, and here are the top 10 essential Chrome extensions for any developer.
 
 # 1 Google Mail Checker
+
 If you are looking for a reliable and efficient Chrome extension, Google Mail Checker might be the perfect choice. The extension allows its user to see a number of unread emails and open Gmail in a new tab. This extension not only saves your time significantly, but it also helps you keep your tabs organized. Furthermore, the extension is developed by the official Google Team, giving high-reliability standards when using.
 
 Anyone who regularly uses Gmail will quickly understand this extension's efficiency, as it doesn't have a sharp learning slope compared to other extensions.
