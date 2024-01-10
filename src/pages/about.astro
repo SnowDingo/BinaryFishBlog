@@ -15,8 +15,9 @@ const identity = {
 };
 
 const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Godot","Atcoder"];
+const pageDescription = "Discover all about BinaryFish! This page holds all the information you need to know about BinaryFish. Learn our goals and the purpose of the blog."
 ---
-<BaseLayouts pageTitle={pageTitle}>
+<BaseLayouts pageTitle={pageTitle} pageDescription={pageDescription}>
 	<p class="text">
 		I am SnowDingo, an experienced web/game developer. I live in {identity.country}, and my job is {identity.occupation}. 
 		I have experiences with {skills.map((skill) => <li class="skills">{skill}</li>)}

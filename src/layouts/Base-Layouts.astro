@@ -2,7 +2,7 @@
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import '../styles/global.css';
-const {pageTitle} = Astro.props;
+const {pageTitle,pageDescription} = Astro.props;
 
 ---
 <html lang="en">
@@ -13,7 +13,7 @@ const {pageTitle} = Astro.props;
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <meta name="keywords" content="blog,tech,begginer,coding" />
-    <meta name="description" content="Binary Fish blog is an informative and engaging website that covers a wide range of topics from coding tips, to computer science principals and web development." />
+    <meta name="description" content={pageDescription} />
     <title>{pageTitle}</title>
   </head>
   <body>

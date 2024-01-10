@@ -4,9 +4,11 @@ import { Image } from 'astro:assets';
 import '../styles/global.css';
 import BaseLayouts from '../layouts/Base-Layouts.astro';
 import '../styles/global.css';
+
+const pageDescription = frontmatter.pageDescription
 /* Icons */
 ---
-<BaseLayouts pageTitle={frontmatter.title}>
+<BaseLayouts pageTitle={frontmatter.title} pageDescription={pageDescription}>
 <div class="blogpage">
   <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: start; ">
     <div style="margin-right: 2%;">

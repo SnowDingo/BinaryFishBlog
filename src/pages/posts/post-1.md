@@ -9,6 +9,7 @@ image:
     url: '/icon.png'
     alt: 'The full Astro logo.'
 tags: ["blog", "blogging", "news"]
+pageDescription: "The first post of BinaryFish. Take a look at our goals, visions, and explanations of what BinaryFish truly is all about."
 ---
 
 Welcome to Binary Fish, a blog all about learning Atcoder, web, and game development!! Here, I will share my learning journey as I build a new website and explore the world of computer science.
