@@ -8,7 +8,7 @@ author: 'Snowdingo'
 image:
     url: '/Atcoder-guide.png'
     alt: 'The full Astro logo.'
-tags: ["blog", "Python", "Atcoder"]
+tags: ["Python", "guide", "Atcoder"]
 ---
 
 

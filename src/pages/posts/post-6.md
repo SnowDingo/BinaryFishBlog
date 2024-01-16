@@ -8,7 +8,7 @@ author: 'Snowdingo'
 image:
     url: '/image7.png'
     alt: 'Chrome Extension'
-tags: ["blog", "ChromeExtension", "Web"]
+tags: ["ChromeExtension", "blog", "Web"]
 ---
 # Introduction
 Have you ever visited or hopped into the Chrome Web Store? Most people don't know this but in Google Chrome, there is a feature called "chrome extension", where users can download selected third-party extensions to add new features to Google Chrome. One example of a famous Google Chrome extension is the adblocker. Adblocker is a type of extension that you can install to delete ads on any website(except for YouTube because they have updated their adblocker blocking strategies...)

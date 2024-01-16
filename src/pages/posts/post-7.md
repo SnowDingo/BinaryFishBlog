@@ -8,7 +8,7 @@ imgurl: '/image8.png'
 image:
     url: '/image8.png'
     alt: 'How to get the min and max value in python'
-tags: ["blog", "blogging", "news"]
+tags: ["Python", "blogging", "news"]
 ---
 Estimated Reading Time: **2** minutes
 # How to get the max and min values of an array in Python

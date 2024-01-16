@@ -8,7 +8,7 @@ author: 'Snowdingo'
 image:
     url: '/image3.png'
     alt: 'The full Astro logo.'
-tags: ["blog", "Godot", "begginer"]
+tags: ["godot", "blog", "begginer"]
 ---
 Estimated reading time: **3 minutes**  
 

@@ -8,7 +8,7 @@ imgurl: '/Atcoder-guide.png'
 image:
     url: '/Atcoder-guide.png'
     alt: 'Atcoder'
-tags: ["blog", "blogging", "news"]
+tags: ["Atcoder", "blog", "guide"]
 
 pageDescription: "If you are starting Atcoder, use this guide to get the best start in 2024. This guide will explain everything from account registration to its basic rating system."
 ---

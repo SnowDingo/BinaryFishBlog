@@ -6,13 +6,14 @@ const allPosts = await Astro.glob('../pages/posts/*.md');
 allPosts.reverse()
 const pageTitle = "Articles"
 const pageDescription = "Explore numerous FREE, engaging, and easy-to-read articles that cover a variety of topics. Stay up-to-date with technology with our latest articles... "
+
 ---
 <BaseLayouts pageTitle={pageTitle} pageDescription={pageDescription}>
         <p class="text abouttext" style="text-align: center;">Take a loot at numerouse blog posts and articles about Atcoder, Game dev, and Web development</p>
         <h2>All post</h2>
         <div style="display: flex; justify-content: center;">
             <ul class="allblog">
-          {allPosts.map((post) => <BlogPostComponent url={post.url} imgURL={post.frontmatter.imgurl} description={post.frontmatter.description} title={post.frontmatter.title} />)}
+          {allPosts.map((post) => <BlogPostComponent tag={post.frontmatter.tags[0]} url={post.url} imgURL={post.frontmatter.imgurl} description={post.frontmatter.description} title={post.frontmatter.title} />)}
           </ul>
         </div>
 

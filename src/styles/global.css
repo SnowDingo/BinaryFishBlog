@@ -125,7 +125,7 @@ footer {
   font-weight: bold;
 }
 .roundedimg {
-  border-radius: 1%;
+  border-radius: 12px;
 }
 .text {
   text-align: center;
@@ -256,12 +256,12 @@ img .cardimg {
 }
 pre {
   padding: 2%;
-  border-radius: 2%;
+  border-radius: 12px;
   text-align: start;
 }
 blockquote {
   padding: 2%;
-  border-radius: 2%;
+  border-radius: 12px;
   text-align: start;
   margin: 1%;
 }
@@ -275,4 +275,12 @@ blockquote {
   text-decoration: underline;
   cursor: pointer;
   color: 	#1a0dab;
+}
+
+.chip {
+  display: inline-block;
+  border-radius: 12px;
+  background-color: #f1f1f1;
+  padding: 0 2%;
+  text-align: start;
 }

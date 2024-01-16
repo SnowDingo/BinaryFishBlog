@@ -1,11 +1,12 @@
 ---
-const { title, url,imgURL,description } = Astro.props;
+const { title, url,imgURL,description,tag } = Astro.props;
 ---
 <li class="maxedout carrd">
     <a href={url} class="bold"><img  height="120px" class="cardimg" src={imgURL} alt="" /> </a>
+    <p class="chip">{tag}</p>
     <div class="textcontainer">
         <a href={url} class="bold cardtxt">{title}</a>
-        <p class="cardtxt">{description}</p>
+       
     </div>
 
 </li>

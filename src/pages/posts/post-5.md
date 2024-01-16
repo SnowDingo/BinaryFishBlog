@@ -8,7 +8,7 @@ author: 'Snowdingo'
 image:
     url: '/image6.png'
     alt: 'Atcoder ABC 332'
-tags: ["blog", "Python", "Atcoder"]
+tags: ["Atcoder", "Python", "guide"]
 ---
 ## Problem
 Here is a very very simplified version of this problem.
