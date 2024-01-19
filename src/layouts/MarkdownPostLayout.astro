@@ -19,7 +19,7 @@ const pageDescription = frontmatter.pageDescription
     <p>Published on: <strong>{frontmatter.pubDate.slice(0,10)}</strong></p>
   </div>
 <!--　説明文を追加する <p><em>{frontmatter.description}</em></p> -->
-<img src={frontmatter.image.url} width="100%" class="thumb" height="auto" alt={frontmatter.image.alt} />
+<img src={frontmatter.image.url} width="100%" class="thumb" style="border-radius:12px" height="auto" alt={frontmatter.image.alt} />
 <div class="blogarticle blogslot">
   <slot class="blogslot" />
 </div>
