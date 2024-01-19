@@ -1,2 +1,3 @@
 User-agent: *
 Allow:/
+Sitemap:https://binary-fish.vercel.app/sitemap-index.xml
