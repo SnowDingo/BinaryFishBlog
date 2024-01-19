@@ -10,11 +10,11 @@ const pageDescription = "Discover BinaryFish, a technological blog that fuels co
 
 ---
 <BaseLayout pageTitle={pageTitle} pageDescription={pageDescription}>
-  <h2>Atcoder, Game and Web development guide for <span class="marker">everyone.</span></h2>
+  <h3>Atcoder, Game and Web development guide for <span class="marker">everyone.</span></h3>
   <div class="recentpost">
-    <h2>Recent posts</h2>
+    <h2 style="text-align: start; margin-top: 2%;"><span class="marker">Recent posts</span></h2>
     <ul class="allblog">
-      {allPosts.map((post) => <BlogPostComponent url={post.url} imgURL={post.frontmatter.imgurl} description={post.frontmatter.description} title={post.frontmatter.title} />)}
+      {allPosts.map((post) => <BlogPostComponent url={post.url} tag={post.frontmatter.tags[0]} imgURL={post.frontmatter.imgurl} description={post.frontmatter.description} title={post.frontmatter.title} />)}
       </ul>
   </div>
 </BaseLayout>

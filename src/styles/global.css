@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Almarai&display=swap');
 html {
   background-color: #FAFAFA;
   font-family: sans-serif;
@@ -13,7 +13,7 @@ body {
   text-align: center;
   line-height: 1.5;
   color: #1C3144;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Almarai', sans-serif;
 }
 
 * {
@@ -100,8 +100,8 @@ footer {
 .nav-links a:hover,
 .nav-links a:focus {
   color: #1C3144;
-  text-decoration: underline;
   text-decoration-color: #449DD1;
+  text-decoration: underline;
   text-decoration-thickness: 3px;
 }
 
@@ -150,9 +150,15 @@ footer {
   height: 266px;
   flex-direction: column;
   overflow: hidden;
+  align-items: start;
   border-radius: 8px;
-  box-shadow: 0 4px 15px rgba(0,0,0,.2);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   margin: 1.2%;
+  transition: all .3s ease-in-out;
+}
+.maxedout:hover{
+  transition: all .3s ease-in-out;
+  box-shadow: 0 4px 18px rgba(0,0,0,.4);
 }
 img .cardimg {
   margin: 0;
@@ -278,9 +284,16 @@ blockquote {
 }
 
 .chip {
+  align-items: start;
   display: inline-block;
   border-radius: 12px;
   background-color: #f1f1f1;
   padding: 0 2%;
+  margin: 1% 0;
   text-align: start;
+}
+h2 {
+  border-left: 4px solid #000;
+  text-align: start;
+  padding-left: 2%;
 }
