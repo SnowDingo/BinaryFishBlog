@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Hover dropshadow CSS animation in 3 minutes '
-pubDate: 2023-12-08
+pubDate: 2023-01-21
 imgurl: '/image9.png'
 description: 'Dropshadow hover animation in CSS explained in 3 minutes.'
 author: 'Dingo'

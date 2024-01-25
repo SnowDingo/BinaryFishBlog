@@ -18,10 +18,16 @@ const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Godot","Atcoder"
 const pageDescription = "Discover all about BinaryFish! This page holds all the information you need to know about BinaryFish. Learn our goals and the purpose of the blog."
 ---
 <BaseLayouts pageTitle={pageTitle} pageDescription={pageDescription}>
+  <img src="/icon.png" />
 	<p class="text">
-		I am SnowDingo, an experienced web/game developer. I live in {identity.country}, and my job is {identity.occupation}. 
-		I have experiences with {skills.map((skill) => <li class="skills">{skill}</li>)}
-    To see my other works, please visit
-    <a href="https://snowdingo.github.io/portfolio/">https://snowdingo.github.io/portfolio/</a>
+		I am SnowDingo, an experienced web/game developer. <br />I live in {identity.country}.
+    please visit the following link to see my portfolio.
 	</p>
+  <a href="https://snowdingo.github.io/portfolio/">https://snowdingo.github.io/portfolio/</a>
+  <style>
+    img {
+      border-radius: 12px;
+      max-width: 64ch;
+    }
+  </style>
 </BaseLayout>

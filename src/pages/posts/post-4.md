@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'What is so good about Godot? -BinaryFish'
-pubDate: 2023-12-08
+pubDate: 2023-12-21
 imgurl: '/image3.png'
 description: 'The new GodotEngine explained in simple 3 minutes article'
 author: 'Snowdingo'

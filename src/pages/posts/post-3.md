@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Atcoder Begginers Contest 321 "Cutoff" explained'
-pubDate: 2023-12-08
+pubDate: 2023-12-17
 imgurl: '/Atcoder-guide.png'
 description: 'A detailed guide to solving ABC 321 problem B.'
 author: 'Snowdingo'
